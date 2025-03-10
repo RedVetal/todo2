@@ -1,0 +1,102 @@
+/* Основные стили для body */
+body {
+    font-family: Arial, sans-serif; /* Шрифт */
+    background-color: #f4f4f4; /* Цвет фона */
+    margin: 0; /* Убираем отступы */
+    padding: 0; /* Убираем внутренние отступы */
+    display: flex; /* Используем flexbox для центрирования */
+    justify-content: center; /* Центрируем по горизонтали */
+    align-items: center; /* Центрируем по вертикали */
+    height: 100vh; /* Высота на весь экран */
+  }
+  
+  /* Стили для контейнера */
+  .container {
+    background: white; /* Белый фон */
+    padding: 20px; /* Внутренние отступы */
+    border-radius: 8px; /* Скругленные углы */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Тень */
+    width: 90%; /* Ширина контейнера */
+    max-width: 1200px; /* Максимальная ширина */
+    text-align: center; /* Выравнивание текста по центру */
+  }
+  
+  /* Стили для заголовка */
+  h1 {
+    margin-bottom: 20px; /* Отступ снизу */
+  }
+  
+  /* Стили для поля ввода */
+  input {
+    width: calc(100% - 22px); /* Ширина с учетом padding */
+    padding: 10px; /* Внутренние отступы */
+    margin-bottom: 10px; /* Отступ снизу */
+    border: 1px solid #ccc; /* Граница */
+    border-radius: 4px; /* Скругленные углы */
+  }
+  
+  /* Стили для кнопки */
+  button {
+    padding: 10px 20px; /* Внутренние отступы */
+    background-color: #28a745; /* Зеленый цвет фона */
+    color: white; /* Белый текст */
+    border: none; /* Убираем границу */
+    border-radius: 4px; /* Скругленные углы */
+    cursor: pointer; /* Курсор в виде указателя */
+  }
+  
+  /* Стили для кнопки при наведении */
+  button:hover {
+    background-color: #218838; /* Темно-зеленый цвет фона */
+  }
+  
+  /* Стили для колонок */
+  .columns {
+    display: flex; /* Используем flexbox для расположения колонок */
+    gap: 20px; /* Расстояние между колонками */
+    margin-top: 20px; /* Отступ сверху */
+  }
+  
+  /* Стили для отдельной колонки */
+  .column {
+    flex: 1; /* Равномерное распределение пространства */
+    background-color: #f8f9fa; /* Светло-серый фон */
+    padding: 15px; /* Внутренние отступы */
+    border-radius: 8px; /* Скругленные углы */
+    border: 1px solid #ddd; /* Граница */
+  }
+  
+  /* Стили для списка задач */
+  .task-list {
+    list-style-type: none; /* Убираем маркеры списка */
+    padding: 0; /* Убираем внутренние отступы */
+    min-height: 100px; /* Минимальная высота */
+  }
+  
+  /* Стили для элемента списка */
+  .task-list li {
+    padding: 10px; /* Внутренние отступы */
+    background-color: white; /* Белый фон */
+    border: 1px solid #ddd; /* Граница */
+    border-radius: 4px; /* Скругленные углы */
+    margin-bottom: 5px; /* Отступ снизу */
+    display: flex; /* Используем flexbox */
+    justify-content: space-between; /* Распределяем пространство между элементами */
+    align-items: center; /* Выравниваем элементы по центру */
+    cursor: grab; /* Курсор в виде руки */
+  }
+  
+  /* Стили для кнопки удаления */
+  .task-list li button {
+    background-color: #dc3545; /* Красный цвет фона */
+    border: none; /* Убираем границу */
+    color: white; /* Белый текст */
+    padding: 5px 10px; /* Внутренние отступы */
+    border-radius: 4px; /* Скругленные углы */
+    cursor: pointer; /* Курсор в виде указателя */
+  }
+  
+  /* Стили для кнопки удаления при наведении */
+  .task-list li button:hover {
+    background-color: #c82333; /* Темно-красный цвет фона */
+  }
