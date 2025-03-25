@@ -2,20 +2,21 @@
 body {
     font-family: Arial, sans-serif; /* Шрифт */
     background-color: #a19a9a; /* Цвет фона */
-    margin: 0; /* Убираем отступы */
+    margin: 2em; /* Убираем отступы */
     padding: 0; /* Убираем внутренние отступы */
     display: flex; /* Используем flexbox для центрирования */
     justify-content: center; /* Центрируем по горизонтали */
     align-items: center; /* Центрируем по вертикали */
-    height: 100vh; /* Высота на весь экран */
+    /*height: 100vh;  Высота на весь экран */
   }
   
   /* Стили для контейнера */
   .container {
     background: rgb(93, 91, 85); /* Белый фон */
-    padding: 20px; /* Внутренние отступы */
-    border-radius: 8px; /* Скругленные углы */
+    padding: 1em; /* Внутренние отступы */
+    border-radius: 2em; /* Скругленные углы */
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.7); /* Тень */
+    height: 90%;
     width: 90%; /* Ширина контейнера */
     max-width: 1200px; /* Максимальная ширина */
     text-align: center; /* Выравнивание текста по центру */
@@ -56,7 +57,7 @@ body {
     display: flex; /* Используем flexbox для расположения колонок */
     flex-wrap: wrap; /* Перенос колонок друг под друга на вертикал мобиле */ 
     gap: 20px; /* Расстояние между колонками */
-    margin-top: 20px; /* Отступ сверху */
+    margin-top: 2em; /* Отступ сверху */
     border-radius: 58px 13px 27px 14px; /* Скругленные углы */
     border: 5px solid #ade1e4; /* Граница */
     border-top-width: 15px; /* ширина верхней границы */
